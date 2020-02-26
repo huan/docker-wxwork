@@ -47,9 +47,9 @@ function startWXWork () {
 
     if [ -n "$DOWORK_DEBUG" ]; then
       unset WINEDEBUG
-      wine 'C:\Program Files\Tencent\WXWork\WXWork.exe'
+      wine 'C:\Program Files\WXWork\WXWork.exe'
     else
-      if ! wine 'C:\Program Files\Tencent\WXWork\WXWork.exe' > /dev/null 2>&1; then
+      if ! wine 'C:\Program Files\WXWork\WXWork.exe' > /dev/null 2>&1; then
         echo "[DoWork] Found new version"
       fi
     fi

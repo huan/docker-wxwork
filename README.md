@@ -1,4 +1,4 @@
-# DoWork /dɑɑˈwɜːk/ 盒装微信 [![Docker](https://github.com/huan/docker-wxwork/workflows/Docker/badge.svg)](https://github.com/huan/docker-wxwork/actions?query=workflow%3ADocker)
+# DoWork /dɑɑˈwɜːk/ 盒装企业微信 [![Docker](https://github.com/huan/docker-wxwork/workflows/Docker/badge.svg)](https://github.com/huan/docker-wxwork/actions?query=workflow%3ADocker)
 
 [![dockeri.co](https://dockeri.co/image/zixia/wxwork)](https://hub.docker.com/r/zixia/wxwork/)
 
@@ -133,6 +133,10 @@ Project created.
 ## Thanks
 
 - [Request for 'Wechat Enterprise' (企业微信) #8](https://github.com/huan/docker-wechat/issues/8) from [@c4pt0r](https://github.com/c4pt0r)
+
+## See Also
+
+- [DoChat /dɑɑˈtʃæt/ 盒装微信](https://github.com/huan/docker-wechat): DoChat(盒装微信) is a Dockerized WeChat(微信) PC Windows Client for Linux.
 
 ## Author
 
