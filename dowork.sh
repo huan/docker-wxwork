@@ -26,14 +26,14 @@ function hello () {
               / |            / |
              *--+-----------*  |
              |  |           |  |
-             |  |   盒装     |  |
-             |  |   企业     |  |
+             |  |   盒装    |  |
+             |  |   企业    |  |
              |  +-- 微信 ---+--+
              | /            | /
              |/             |/
              *--------------*
 
-      DoWork /dɑɑˈwɜːk/ (Docker-WXWork) is:
+      DoWork /dɑɑˈwɜːk/ (Docker-wxWork) is:
 
       📦 a Docker image
       🤐 for running PC Windows WeChat Work
