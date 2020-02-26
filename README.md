@@ -8,7 +8,7 @@ DoWork (盒装企业微信) is a Dockerized WeChat Work (企业微信) PC Window
 
 > Image Credit: [Docker 101](https://www.docker.com/blog/docker-101-introduction-docker-webinar-recap/) + [Icon Finder](https://www.iconfinder.com/icons/4539886/application_chat_communication_wxwork_wxwork_logo_icon), and Ps-ed by Ruoxin Song
 
-## Usage ![Powered Ubuntu](https://img.shields.io/badge/WeChat-Ubuntu-orange)
+## Usage ![Powered Ubuntu](https://img.shields.io/badge/WeChat%20Work-Ubuntu-orange)
 
 WeChat Work PC will be started on your Linux desktop by running the following one-line command:
 
@@ -75,7 +75,7 @@ curl -sL https://raw.githubusercontent.com/huan/docker-wxwork/master/dowork.sh \
 
 ## For Hackers
 
-If you want to control everything by yourself, for example, open multiple WeChat PC client on your desktop; then, you might want to inspect the [dowork.sh](https://github.com/huan/docker-wxwork/blob/master/dowork.sh) in our repository and try the following docker command:
+If you want to control everything by yourself, for example, open multiple WeChat Work PC client on your desktop; then, you might want to inspect the [dowork.sh](https://github.com/huan/docker-wxwork/blob/master/dowork.sh) in our repository and try the following docker command:
 
 ```sh
 docker run \
@@ -83,7 +83,7 @@ docker run \
   --rm \
   -i \
   \
-  -v "$HOME/DoWork/WeChat Files/":'/home/user/WeChat Files/' \
+  -v "$HOME/DoWork/WXWork/":'/home/user/WXWork/' \
   -v "$HOME/DoWork/Applcation Data":'/home/user/.wine/drive_c/users/user/Application Data/' \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   \
@@ -109,8 +109,8 @@ Modify it whatever you want to fulfill your needs.
 
 ## To-do List
 
-- [ ] Automatically install WeChat PC from .EXE installer when building the Dockerfile. (Test Automation tools might be needed)
-- [ ] Monitor WeChat PC version publications so that we can publish the same version number of the docker image with it.
+- [ ] Automatically install WeChat Work from .EXE installer when building the Dockerfile. (Test Automation tools might be needed)
+- [ ] Monitor WeChat Work version publications so that we can publish the same version number of the docker image with it.
 
 ## FAQ
 
