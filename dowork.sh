@@ -65,7 +65,7 @@ function main () {
     DEVICE_ARG+=('--device' "$DEVICE")
   done
 
-  echo '🚀 Starting DoWork /dɑɑˈtʃæt/ ...'
+  echo '🚀 Starting DoWork /dɑɑˈwɜːk/ ...'
   echo
 
   #
