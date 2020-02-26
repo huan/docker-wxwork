@@ -10,6 +10,7 @@ function hello () {
 }
 
 function disableUpgrade () {
+  echo "To be write" > /dev/null
 }
 
 function setupFontDpi () {
