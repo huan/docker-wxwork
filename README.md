@@ -136,7 +136,7 @@ Project created.
 
 ## See Also
 
-- [DoChat /dɑɑˈtʃæt/ 盒装微信](https://github.com/huan/docker-wechat): DoChat(盒装微信) is a Dockerized WeChat(微信) PC Windows Client for Linux.
+- [DoChat /dɑɑˈtʃæt/ 盒装微信](https://github.com/huan/docker-wechat): a Dockerized WeChat(微信) PC Windows Client for Linux.
 
 ## Author
 
