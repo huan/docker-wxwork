@@ -11,8 +11,8 @@ docker run \
   -v "$HOME/DoWork/WXWork/":'/home/user/WXWork/' \
   -v "$HOME/DoWork/Applcation Data":'/home/user/.wine/drive_c/users/user/Application Data/' \
   \
-  -e DISPLAY="$DISPLAY" \
-  -e DOCHAT_DEBUG="$DOCHAT_DEBUG" \
+  -e DISPLAY \
+  -e DOCHAT_DEBUG \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   \
   --device /dev/snd \

@@ -82,9 +82,9 @@ function main () {
     -v "$HOME/DoWork/Applcation Data":'/home/user/.wine/drive_c/users/user/Application Data/' \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     \
-    -e DISPLAY="$DISPLAY" \
-    -e DOWORK_DEBUG="$DOWORK_DEBUG" \
-    -e DOWORK_DPI="$DOWORK_DPI" \
+    -e DISPLAY \
+    -e DOWORK_DEBUG \
+    -e DOWORK_DPI \
     \
     -e XMODIFIERS=@im=fcitx \
     -e GTK_IM_MODULE=fcitx \
