@@ -137,6 +137,7 @@ Project created.
 ## See Also
 
 - [DoChat /dɑɑˈtʃæt/ 盒装微信](https://github.com/huan/docker-wechat): Dockerized WeChat(微信) PC Windows Client for Linux
+- 同类项目：[用docker跑企业微信](https://github.com/BoringCat/docker-WXWork#entrypointsh)
 
 ## Author
 
