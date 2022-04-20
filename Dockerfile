@@ -22,8 +22,6 @@ RUN mv /etc/apt/tuna.list /etc/apt/sources.list
 RUN apt update && apt install locales -y && apt autoclean && rm -rf /var/lib/apt/lists/*
 RUN echo "zh_CN.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
 
-CMD winetricks riched20
-
 ENTRYPOINT [ "/entrypoint.sh" ]
 
 LABEL \
