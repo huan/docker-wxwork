@@ -17,6 +17,9 @@ VOLUME [\
 COPY [A-Z]* /
 COPY entrypoint.sh /
 
+RUN apt update && apt install locales -y && apt autoclean && rm -rf /var/lib/apt/lists/*
+RUN echo "zh_CN.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
+
 ENTRYPOINT [ "/entrypoint.sh" ]
 
 LABEL \
