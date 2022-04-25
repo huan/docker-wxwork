@@ -50,7 +50,7 @@ function pullUpdate () {
 
   echo '🚀 Pulling the latest docker image...'
   echo
-  docker pull zixia/wxwork
+  # docker pull zixia/wxwork
   echo
   echo '🚀 Pulling the latest docker image done.'
 }
@@ -97,7 +97,7 @@ function main () {
     --ipc=host \
     --privileged \
     \
-    zixia/wxwork
+    wxwork
 
     echo
     echo "📦 DoWork Exited with code [$?]"
